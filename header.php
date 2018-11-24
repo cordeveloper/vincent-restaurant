@@ -8,5 +8,10 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <header class="header"></header>
+    <header class="header">
+        <section class="header__main">
+            <?php echo get_custom_logo(); ?>
+
+        </section>
+    </header>
     

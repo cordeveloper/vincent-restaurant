@@ -45,4 +45,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.header {
+  background-color: #000; }
+
+.header__main {
+  display: flex;
+  justify-content: space-between; }
+
+.logo-main {
+  width: 176px;
+  height: 99px;
+  flex: 0; }
+
 /*# sourceMappingURL=../maps/style.css.map */

@@ -1,0 +1,16 @@
+// __ HEADER __
+
+.header{
+    background-color: #000;
+}
+
+.header__main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-main{
+    width: 176px;
+    height: 99px;
+    flex: 0;
+}
