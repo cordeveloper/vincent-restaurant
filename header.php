@@ -11,7 +11,7 @@
     <header class="header">
         <section class="header__main">
             <?php echo get_custom_logo(); ?>
-
         </section>
     </header>
+    <div class="vincent__corners"></div>
     
