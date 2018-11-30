@@ -8,10 +8,18 @@
     <?php wp_head(); ?>
 </head>
 <body>
+
     <header class="header">
         <section class="header__main">
             <?php echo get_custom_logo(); ?>
         </section>
+        <section class="header__navigation">
+            <div class="container">
+                <?php wp_list_pages(); ?>
+            </div>
+        </section>
+        <?php var_dump(get_option('first_name')); ?>
     </header>
+    
     <div class="vincent__corners"></div>
     

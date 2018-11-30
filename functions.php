@@ -1,4 +1,3 @@
-
 <?php 
 /*
 -------------------------------------------------------------
@@ -15,6 +14,12 @@
 ------------------------------------------------------------*/
 
 /*------------------------------------*\
+	INCLUDE
+\*------------------------------------*/
+require get_template_directory() . '/inc/enqueue.php';
+require get_template_directory() . '/inc/function-admin.php';
+
+/*------------------------------------*\
 	FUNCTIONS
 \*------------------------------------*/
 
@@ -23,7 +28,7 @@
  */
 function vincent_setup() {
 
-    // Theme features support
+    // _Theme features support_
 
     // Logo
     add_theme_support( 'custom-logo');
